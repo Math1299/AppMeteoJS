@@ -8,6 +8,13 @@
     </head>
     <body>
         <div class="container">
+            <div class="overlay-icon-chargement">
+                <img
+                    src="ressources/chargement/circles.svg"
+                    alt="logo-chargement"
+                />
+            </div>
+
             <h1>Application Météo</h1>
             <div class="bloc-logo-info">
                 <div class="bloc-logo">
@@ -19,9 +26,9 @@
                 </div>
 
                 <div class="bloc-info">
-                    <p class="temps">Couvert</p>
-                    <p class="temperature">15°</p>
-                    <p class="localisation">Nyon</p>
+                    <p class="temps"></p>
+                    <p class="temperature"></p>
+                    <p class="localisation"></p>
                 </div>
             </div>
             <div class="heure-bloc-prevision">
@@ -86,7 +93,8 @@
                 </div>
             </div>
         </div>
-
+        <!-- PLUS BESOIN DE LAISSER LE SCRIPT ICI CAR IMPORT / EXPORT DEPUIS LES FICHIERS -->
+        <!-- <script src="scripts/Utilitaire/gestionTemps.js"></script> -->
         <script type="module" src="scripts/main.js"></script>
     </body>
 </html>
